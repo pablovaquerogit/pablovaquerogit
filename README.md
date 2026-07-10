@@ -1,16 +1,33 @@
-## Hi there 👋
+# ¡Hola! Soy Pablo Vaquero 👋
 
-<!--
-**pablovaquerogit/pablovaquerogit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Soy una persona interesada en el análisis de datos, las bases de datos y la automatización de procesos.
 
-Here are some ideas to get you started:
+Actualmente estoy desarrollando proyectos con:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* SQL Server y T-SQL
+* Python
+* Excel y VBA
+* Bases de datos relacionales
+* Análisis y organización de información
+
+## 🚀 Proyectos destacados
+
+Próximamente encontrarás proyectos relacionados con:
+
+* Consultas y análisis de la base de datos Northwind
+* Ejercicios y aplicaciones desarrolladas en Python
+* Automatización de tareas con Excel y macros VBA
+
+## 🌱 Actualmente estoy aprendiendo
+
+* Consultas avanzadas en SQL Server
+* Limpieza y análisis de datos
+* Desarrollo de proyectos documentados
+* Git y GitHub
+
+## 📫 Contacto
+
+* LinkedIn: Próximamente
+* Correo profesional: Agregar correo de contacto
+
+Gracias por visitar mi perfil.
