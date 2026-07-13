@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 # Hola, soy Pablo Vaquero 👋
@@ -183,4 +182,3 @@ Modelado y normalización de bases de datos, integridad referencial, consultas S
 **Aprendiendo de cada proyecto y convirtiendo ideas en soluciones funcionales.**
 
 </div>
-```
