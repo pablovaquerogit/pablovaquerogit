@@ -1,3 +1,4 @@
+```markdown
 <div align="center">
 
 # Hola, soy Pablo Vaquero 👋
@@ -6,7 +7,7 @@
 
 **Construyendo soluciones con SQL Server, Python y automatización.**
 
-[![GitHub](https://img.shields.io/badge/GitHub-pablovaquerogit-181717?style=for-the-badge&logo=github)](https://github.com/pablovaquerogit)
+[![GitHub](https://img.shields.io/badge/GitHub-pablovaquerogit-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pablovaquerogit)
 [![Correo](https://img.shields.io/badge/Correo-Contacto-4F46E5?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pablovaquero.git@gmail.com)
 
 </div>
@@ -15,11 +16,11 @@
 
 ## 👨‍💻 Sobre mí
 
-Me interesa transformar necesidades reales en soluciones mediante el desarrollo, los datos y la automatización.  
-He creado proyectos con SQL Server y T-SQL para diseñar bases de datos, aplicar reglas de negocio y mantener la integridad de la información.  
-También utilizo Python para continuar desarrollando mis habilidades de programación y resolución de problemas.  
-Me gusta integrar herramientas como Make, Telegram, Google Sheets, Google Calendar y OpenAI para automatizar procesos.  
-Actualmente continúo aprendiendo, documentando proyectos y construyendo un portafolio que refleje mis capacidades de forma auténtica.
+Me interesa utilizar el desarrollo y los datos para crear soluciones útiles, organizadas y fáciles de mantener.  
+He desarrollado proyectos con SQL Server y T-SQL, aplicando modelado relacional, consultas, validaciones y reglas de negocio.  
+También utilizo Python para fortalecer mis habilidades de programación y resolución de problemas.  
+Me gusta automatizar procesos e integrar herramientas como Make, Telegram, Google Sheets, Google Calendar y OpenAI.  
+Actualmente continúo aprendiendo, documentando proyectos y construyendo un portafolio basado en trabajo real.
 
 ---
 
@@ -55,67 +56,107 @@ Actualmente continúo aprendiendo, documentando proyectos y construyendo un port
 
 ### 🩺 MediCitas IA
 
-Sistema de automatización para gestionar citas médicas mediante conversaciones en Telegram.
+Automatización administrativa para gestionar citas médicas mediante conversaciones en Telegram.
 
-**Problema que resuelve:**  
-La gestión manual de solicitudes para agendar, cancelar, reagendar y consultar citas puede generar registros duplicados, pérdida de información y falta de sincronización entre pacientes, horarios y calendarios.
+**Problema que resuelve**
 
-**Solución:**  
-MediCitas IA interpreta mensajes con OpenAI, organiza la información mediante Make y sincroniza las operaciones con Google Sheets y Google Calendar.
+La gestión manual de citas puede producir registros duplicados, pérdida de información y falta de sincronización entre pacientes, horarios disponibles y calendarios.
 
-**Tecnologías utilizadas:**  
-`Make` · `OpenAI` · `Telegram` · `Google Sheets` · `Google Calendar`
+**Solución**
 
-**Funcionalidades principales:**
+El sistema interpreta las solicitudes recibidas en Telegram, estructura la información con OpenAI y utiliza Make para coordinar las operaciones con Google Sheets y Google Calendar.
 
-- Agenda, cancelación, consulta y reagendado de citas.
-- Registro y actualización de pacientes.
-- Validación de horarios disponibles.
-- Sincronización de eventos con Google Calendar.
-- Recordatorios automáticos mediante Telegram.
-- Bitácora de solicitudes y resultados.
-- Transferencia de casos especiales a atención humana.
-- Documentación técnica y casos de prueba.
+**Tecnologías:** `Make` · `OpenAI` · `Telegram` · `Google Sheets` · `Google Calendar`
 
-**Aprendizajes relevantes:**  
-Diseño de flujos con routers y filtros, integración entre servicios, manejo de estados, validación de datos, estructuración de respuestas con OpenAI y documentación de automatizaciones.
+**Funcionalidades principales**
 
-**Estado:** Demostración académica documentada y publicada.
+- Agendar, cancelar, reagendar y consultar citas.
+- Registrar pacientes y completar información faltante.
+- Validar la disponibilidad antes de confirmar una cita.
+- Sincronizar eventos con Google Calendar.
+- Enviar recordatorios automáticos por Telegram.
+- Registrar solicitudes y resultados en una bitácora.
+- Transferir urgencias y solicitudes especiales a atención humana.
+- Evitar registros duplicados mediante validaciones.
 
-[![Ver repositorio](https://img.shields.io/badge/Ver%20repositorio-6366F1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pablovaquerogit/medicitas-ia)
+**Aprendizajes relevantes**
+
+Diseño de flujos con rutas y filtros, integración entre servicios, extracción estructurada de información, validación de datos, manejo de estados, documentación y pruebas de automatizaciones.
+
+**Estado:** proyecto académico colaborativo, documentado y publicado como demostración.
+
+[![Ver repositorio de MediCitas IA](https://img.shields.io/badge/Ver%20repositorio-6366F1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pablovaquerogit/medicitas-ia)
 
 ---
 
-### 📦 Sistema de Gestión de Envíos con SQL Server
+### 🐍 Compilador Cascabel
+
+Compilador educativo desarrollado en Python para un lenguaje de programación con sintaxis en español.
+
+**Problema que resuelve**
+
+Un lenguaje de programación necesita reconocer instrucciones, validar su estructura, detectar errores y traducir el código fuente a un formato ejecutable.
+
+**Solución**
+
+El compilador procesa archivos escritos en Cascabel mediante análisis léxico, sintáctico y semántico. Después construye un árbol de sintaxis abstracta y genera código Python ejecutable.
+
+**Tecnologías:** `Python` · `Git` · `GitHub`
+
+**Funcionalidades principales**
+
+- Reconocimiento de palabras reservadas, identificadores, literales y operadores.
+- Validación de la gramática del lenguaje.
+- Construcción de un árbol de sintaxis abstracta.
+- Manejo de una tabla de símbolos.
+- Validación de tipos y variables declaradas.
+- Detección de errores léxicos, sintácticos y semánticos.
+- Soporte para condiciones, ciclos, lectura y escritura.
+- Generación de código Python.
+- Ejecución de pruebas automáticas.
+
+**Aprendizajes relevantes**
+
+Procesamiento de lenguajes, diseño modular, estructuras de datos, validación de errores, generación de código, pruebas y organización de un proyecto en Python.
+
+**Estado:** proyecto académico individual, funcional, documentado y publicado.
+
+[![Ver repositorio del Compilador Cascabel](https://img.shields.io/badge/Ver%20repositorio-4F46E5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pablovaquerogit/compilador-cascabel)
+
+---
+
+### 📦 Sistema de Gestión de Envíos
 
 Base de datos relacional para administrar paquetes nacionales e internacionales, conductores, camiones, rutas y centros locales.
 
-**Problema que resuelve:**  
-Un sistema de envíos necesita relacionar diferentes entidades y aplicar reglas que eviten datos inconsistentes, asignaciones incorrectas y registros que no cumplan con las condiciones del negocio.
+**Problema que resuelve**
 
-**Solución:**  
-Se diseñó una base de datos en SQL Server con 11 tablas relacionadas, restricciones, procedimientos almacenados, disparadores y transacciones para controlar la información y automatizar validaciones.
+Un sistema de envíos necesita relacionar diferentes entidades y aplicar reglas que eviten asignaciones incorrectas, registros incompletos y datos inconsistentes.
 
-**Tecnologías utilizadas:**  
-`SQL Server` · `T-SQL`
+**Solución**
 
-**Funcionalidades principales:**
+Se diseñó una base de datos en SQL Server con 11 tablas relacionadas, restricciones, procedimientos almacenados, triggers y transacciones para controlar la información y automatizar reglas de negocio.
+
+**Tecnologías:** `SQL Server` · `T-SQL`
+
+**Funcionalidades principales**
 
 - Gestión de paquetes nacionales e internacionales.
 - Relaciones entre conductores, camiones y rutas.
-- Llaves primarias, llaves foráneas y restricciones `CHECK`.
-- Cuatro triggers para aplicar reglas de negocio.
+- Uso de llaves primarias, llaves foráneas y restricciones.
+- Validación automática de reglas de negocio mediante triggers.
 - Procedimiento almacenado para consultar paquetes.
 - Actualización automática del conteo de envíos por ciudad.
-- Datos de prueba y validaciones mediante transacciones.
+- Datos de ejemplo y pruebas controladas con transacciones.
 - Documentación técnica y diccionario de datos.
 
-**Aprendizajes relevantes:**  
-Modelado y normalización de bases de datos, integridad referencial, procedimientos almacenados, triggers, manejo de errores, transacciones y documentación técnica.
+**Aprendizajes relevantes**
 
-**Estado:** Proyecto académico documentado y publicado.
+Modelado y normalización de bases de datos, integridad referencial, consultas SQL, procedimientos almacenados, triggers, manejo de errores, transacciones y documentación técnica.
 
-[![Ver repositorio](https://img.shields.io/badge/Ver%20repositorio-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pablovaquerogit/sql-server-sistema-envios)
+**Estado:** proyecto académico adaptado, documentado y publicado como parte del portafolio.
+
+[![Ver repositorio del Sistema de Envíos](https://img.shields.io/badge/Ver%20repositorio-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pablovaquerogit/sql-server-sistema-envios)
 
 ---
 
@@ -124,15 +165,13 @@ Modelado y normalización de bases de datos, integridad referencial, procedimien
 | Área | En qué estoy trabajando |
 |---|---|
 | 📚 Aprendiendo | Consultas avanzadas en SQL Server, Python, análisis de datos, Git y GitHub |
-| 🔨 Construyendo | Proyectos documentados para mi portafolio profesional |
-| 🔎 Explorando | Automatizaciones e integraciones con Make, Telegram, Google Sheets, Google Calendar y OpenAI |
-| 💼 Buscando | Oportunidades como desarrollador junior, analista de datos o perfil tecnológico en formación |
+| 🔨 Construyendo | Proyectos funcionales y documentados para mi portafolio |
+| 🔎 Explorando | Automatizaciones con Make e integraciones con Telegram, Google Sheets, Google Calendar y OpenAI |
+| 💼 Buscando | Oportunidades como analista de datos, desarrollador junior o perfil tecnológico en formación |
 
 ---
 
 ## 📫 Contacto
-
-Puedes conocer mis proyectos o ponerte en contacto conmigo mediante:
 
 - **GitHub:** [github.com/pablovaquerogit](https://github.com/pablovaquerogit)
 - **Correo:** [pablovaquero.git@gmail.com](mailto:pablovaquero.git@gmail.com)
@@ -141,6 +180,7 @@ Puedes conocer mis proyectos o ponerte en contacto conmigo mediante:
 
 <div align="center">
 
-*Aprendiendo de cada proyecto y convirtiendo ideas en soluciones funcionales.*
+**Aprendiendo de cada proyecto y convirtiendo ideas en soluciones funcionales.**
 
 </div>
+```
